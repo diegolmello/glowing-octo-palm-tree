@@ -24,6 +24,8 @@ end
 target 'Test' do
   config = use_native_modules!
 
+  pod 'JitsiMeetSDK' # comment this and the app will work
+
   # Flags change depending on the env values.
   flags = get_default_flags()
 
